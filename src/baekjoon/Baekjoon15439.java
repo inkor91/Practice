@@ -1,0 +1,18 @@
+package baekjoon;
+
+import java.util.Scanner;
+
+// Vera and Outfits 
+// Vera owns N tops and N pants. The i-th top and i-th pants have colour i, for 1 ≤ i ≤ N, 
+// where all N colours are different from each other.
+// An outfit consists of one top and one pants. 
+// Vera likes outfits where the top and pants are not the same colour.
+// How many different outfits does she like?
+
+public class Baekjoon15439 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int colorNum = sc.nextInt();
+		System.out.println(colorNum*(colorNum-1));
+	}
+}
