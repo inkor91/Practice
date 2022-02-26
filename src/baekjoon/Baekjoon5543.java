@@ -1,4 +1,4 @@
-package codeup;
+package baekjoon;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 // 첫째 줄에 가장 싼 세트 메뉴의 가격을 출력한다.
 
-public class codeup5543 {
+public class Baekjoon5543 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int[] menu = new int[5];
