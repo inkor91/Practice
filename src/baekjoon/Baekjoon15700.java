@@ -8,7 +8,6 @@ import java.util.Scanner;
 // 첫째 줄에 N과 M이 주어진다.
 // 첫째 줄에 채울 수 있는 타일 개수의 최댓값을 출력한다.
 
-
 public class Baekjoon15700 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
